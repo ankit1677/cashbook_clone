@@ -4,7 +4,7 @@ import Header from '../components/Home/Header'
 import Data from '../components/Home/Data'
 import fin_data from '../Data/fin_data'
 
-const HomeScreen = () => {
+const HomeScreen = ({navigation}) => {
   return (
     <SafeAreaView style={styles.main}>
       <Header/>
